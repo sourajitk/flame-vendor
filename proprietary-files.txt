@@ -580,7 +580,6 @@ product/priv-app/CarrierSettings/CarrierSettings.apk
 product/priv-app/CarrierWifi/CarrierWifi.apk
 product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 product/priv-app/DevicePersonalizationPrebuiltPixel4/DevicePersonalizationPrebuiltPixel4.apk;PRESIGNED
 product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/DMService/DMService.apk

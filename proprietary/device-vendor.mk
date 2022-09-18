@@ -1435,7 +1435,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     device_symlinks \
     deviceInfoServiceModule \
-    DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel4 \
     diag_klog \
     diag_mdlog \
