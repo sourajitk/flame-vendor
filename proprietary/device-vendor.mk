@@ -1895,7 +1895,7 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqspmsvc \
     libQTEEConnector_vendor \
-    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor \
     libqti-utils \
     libqtigef \
     libqtikeymaster4 \
@@ -2033,7 +2033,7 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvisualizer \
     libVkLayer_q3dtools \
-    libvndfwk_detect_jni.qti \
+    libvndfwk_detect_jni.qti.vendor \
     libvolumelistener \
     libvorbisidec.vendor:32 \
     libvpp_aie \
@@ -2052,6 +2052,7 @@ PRODUCT_PACKAGES += \
     libvraudio \
     libvraudio_client.qti \
     libvsc \
+    libwifi-hal:64 \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     libwifi-hal:64 \
@@ -2193,6 +2194,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.8 \
     vendor.display.config@1.8.vendor \
     vendor.display.config@1.9.vendor \
+    vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor \
     vendor.display.postproc@1.0 \
     vendor.google.airbrush.manager@1.0 \
@@ -2399,7 +2401,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30 \
     graphics.gpu.profiler.support=true \
     graphics.gpu.profiler.vulkan_layer_apk=com.google.pixel.coral.gpuprofiling.vulkanlayer \
-    ro.config.alarm_alert=Bright_morning.ogg \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.esim_cid_ignore=00000001 \
     setupwizard.feature.baseline_setupwizard_enabled=true \

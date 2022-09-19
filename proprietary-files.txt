@@ -26,8 +26,6 @@ system_ext/etc/permissions/izat.xt.srv.xml
 system_ext/etc/permissions/obdm_permissions.xml
 system_ext/etc/permissions/org_codeaurora_ims.xml
 system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/permissions/qti_telephony_hidl_wrapper.xml
-system_ext/etc/permissions/qti_telephony_utils.xml
 system_ext/etc/permissions/vzw_mvs_permissions.xml
 system_ext/etc/seccomp_policy/sxraux-arm.policy
 system_ext/etc/seccomp_policy/tcmd.policy
@@ -553,7 +551,6 @@ product/etc/permissions/com.google.omadm.trigger.xml
 product/etc/permissions/com.verizon.apn.xml
 product/etc/permissions/com.verizon.services.xml
 product/etc/permissions/features-verizon.xml
-product/etc/permissions/qti_telephony_hidl_wrapper_prd.xml
 product/etc/permissions/uimremoteclient.xml
 product/etc/permissions/uimremoteserver.xml
 product/etc/permissions/UimService.xml
@@ -1658,7 +1655,6 @@ vendor/lib/libqseed3.so
 vendor/lib/libqservice.so
 vendor/lib/libqsocket.so
 vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/libqti-utils.so
 vendor/lib/libqtigef.so
 vendor/lib/libqtikeymaster4.so
@@ -1728,7 +1724,6 @@ vendor/lib/libtzdrmgenprov.so
 vendor/lib/libvd6281.so
 vendor/lib/libvideoutils.so
 vendor/lib/libVkLayer_q3dtools.so
-vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvppimmotion.so
@@ -2185,7 +2180,6 @@ vendor/lib64/libqseed3.so
 vendor/lib64/libqservice.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libqti-utils.so
 vendor/lib64/libqtigef.so
 vendor/lib64/libqtikeymaster4.so
@@ -2254,7 +2248,6 @@ vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libultradepth_api.so
 vendor/lib64/libvd6281.so
 vendor/lib64/libVkLayer_q3dtools.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libvpphcp.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvppimmotion.so

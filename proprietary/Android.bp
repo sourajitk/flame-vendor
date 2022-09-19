@@ -7446,20 +7446,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqti_vndfwk_detect",
-    owner: "google_devices",
-    target: {
-        android_arm: { srcs: [ "vendor/lib/libqti_vndfwk_detect.so" ] },
-        android_arm64: { srcs: [ "vendor/lib64/libqti_vndfwk_detect.so" ] }
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqti-utils",
     owner: "google_devices",
     target: {
@@ -8405,20 +8391,6 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: { srcs: [ "vendor/lib/libVkLayer_q3dtools.so" ] },
         android_arm64: { srcs: [ "vendor/lib64/libVkLayer_q3dtools.so" ] }
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvndfwk_detect_jni.qti",
-    owner: "google_devices",
-    target: {
-        android_arm: { srcs: [ "vendor/lib/libvndfwk_detect_jni.qti.so" ] },
-        android_arm64: { srcs: [ "vendor/lib64/libvndfwk_detect_jni.qti.so" ] }
     },
     compile_multilib: "both",
     check_elf_files: false,
