@@ -2844,16 +2844,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "chre",
-    owner: "google_devices",
-    srcs: [ "vendor/bin/chre" ],
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "cnd",
     owner: "google_devices",
     srcs: [ "vendor/bin/cnd" ],
