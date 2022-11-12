@@ -1088,7 +1088,9 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/flame/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/google_devices/flame/proprietary/vendor/firmware/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/manifest.xml \
     vendor/google_devices/flame/proprietary/vendor/odm/etc/permissions/sku_G020N/com.google.hardware.pixel.japan.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/permissions/sku_G020N/com.google.hardware.pixel.japan.xml \
-    vendor/google_devices/flame/proprietary/vendor/odm/etc/permissions/sku_G020Q/com.google.hardware.pixel.japan.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/permissions/sku_G020Q/com.google.hardware.pixel.japan.xml
+    vendor/google_devices/flame/proprietary/vendor/odm/etc/permissions/sku_G020Q/com.google.hardware.pixel.japan.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/permissions/sku_G020Q/com.google.hardware.pixel.japan.xml \
+    vendor/google_devices/flame/proprietary/vendor/lib64/libgooglecamerahal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamerahal.so \
+    vendor/google_devices/flame/proprietary/vendor/lib64/libgooglecamerahalutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamerahalutils.so \
 
 PRODUCT_PACKAGES += \
     _fs_config_dirs_vendor \
